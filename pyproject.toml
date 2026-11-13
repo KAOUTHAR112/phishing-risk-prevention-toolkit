@@ -1,0 +1,18 @@
+[project]
+name = "phishing-risk-prevention-toolkit"
+version = "2.0.0"
+description = "Explainable URL-only phishing risk analysis with Streamlit and scikit-learn"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501"]

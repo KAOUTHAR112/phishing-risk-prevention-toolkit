@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Phishing Risk Prevention Toolkit"
+message: "If you use this academic project, please cite it using this metadata."
+type: software
+authors:
+  - family-names: "El Attaoui"
+    given-names: "Kaouthar"
+version: 2.0.0
+date-released: 2026-07-26
+license: MIT
+repository-code: "https://github.com/KAOUTHAR112/phishing-risk-prevention-toolkit"
+keywords:
+  - phishing detection
+  - cybersecurity
+  - machine learning
+  - Streamlit
+  - URL analysis

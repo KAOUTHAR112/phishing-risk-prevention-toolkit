@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local and sensitive runtime outputs
+reports/scan_history.csv
+*.log
+.env
+.streamlit/secrets.toml
+
+# Build outputs
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,9 @@
+{
+  "rule_weight": 0.3,
+  "ml_weight": 0.7,
+  "suspicious_threshold": 37.0,
+  "high_threshold": 70.0,
+  "ml_medium_probability": 0.5200000000000002,
+  "ml_high_probability": 0.85,
+  "selection_note": "Weights and suspicious threshold selected on validation F1; high-risk threshold is a conservative policy threshold."
+}
